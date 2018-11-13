@@ -1,0 +1,102 @@
+a {
+	text-decoration: none;
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+.button {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	font-family: Verdana;
+	border: solid 3px #1d3f5a;
+}
+
+.button:hover {
+	background: #e3c8b5;
+	color: black;
+}
+
+#main-menu{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr) ;
+}
+
+.showcase{
+	padding: 200px;
+	background-image: url(../images/QHWK1303.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	box-shadow: 0 0 5px #black;
+	margin-bottom: 10px;
+}
+
+.main-article {
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+	
+}
+
+.main-article-left {
+	background: #b75e32;
+	padding: 20px;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 20px #2c546e;
+	font-family: Verdana;
+}
+
+.main-article-left h2 {
+	margin-top: 30px;
+	font-family: Verdana;
+}
+
+.main-article p{
+	margin: 30 px 0 50px 0;
+	font-family: Verdana;
+}
+
+.main-article-left div {
+	margin-left: -70px;
+	padding: 4
+}
+
+.main-article-right {
+	text-align: center;
+	box-shadow: 0 0 20px #e18441;
+	background: #6299c0;
+	font-family: Verdana ;
+	
+}
+
+.main-article-right h4{
+	margin-top: 50px;
+}
+
+.main-article-right p{
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.footer {
+	text-align: center;
+	border: solid 3px #182F4D;
+	margin-left: 400px;
+	margin-right: 50px;
+}
+
+.footer:hover {
+	background: #e3c8b5;
+	color: black;
+}
